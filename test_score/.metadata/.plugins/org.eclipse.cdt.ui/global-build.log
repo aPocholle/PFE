@@ -1,0 +1,31 @@
+Nothing to build in platform 'plat'
+
+17:16:56 **** Incremental Build of configuration Debug for project app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/test_score/plat/export/plat/sw/plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: app.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/PFE/test_score/plat/export/plat/sw/plat/standalone_domain/bsplib/lib -o "app.elf"  ./src/verbose/verbose.o  ./src/uart/uart_ps.o  ./src/platform/platform.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 633731	   3992	 152732	 790455	  c0fb7	app.elf
+'Finished building: app.elf.size'
+' '
+17:17:00 **** Incremental Build of configuration Debug for project app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51149 F:/PFE/test_score/plat/export/plat/plat.xpfm standalone_domain F:/PFE/test_score/app_system/Debug/system.bif
+sdcard_gen --xpfm F:/PFE/test_score/plat/export/plat/plat.xpfm --sys_config plat --bif F:/PFE/test_score/app_system/Debug/system.bif --bitstream F:/PFE/test_score/app/_ide/bitstream/systeme.bit --elf F:/PFE/test_score/app/Debug/app.elf,ps7_cortexa9_0
+creating BOOT.BIN using F:/PFE/test_score/app/_ide/bitstream/systeme.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image F:/PFE/test_score/app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

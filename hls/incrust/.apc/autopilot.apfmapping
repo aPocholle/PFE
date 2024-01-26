@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matrice_polytech.h" path="F:\PFE\hls\incrust\matrice_polytech.h"/>
+    <originFiles name="matrice_esirem.h" path="F:\PFE\hls\incrust\matrice_esirem.h"/>
+    <originFiles name="incrust.cpp" path="F:\PFE\hls\incrust\incrust.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="incrust_tb.cpp" path="F:\PFE\hls\incrust\incrust_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

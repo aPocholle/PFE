@@ -1,0 +1,25 @@
+2023-12-15T15:52:07.421245700255-15:52:07 **** Incremental Build of configuration Debug for project appl ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.cc'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/test_incrust_axilite/plat/export/plat/sw/plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+000-'Finished building: ../src/main.cc'
+000-' '
+000-'Building target: appl.elf'
+000-'Invoking: ARM v7 g++ linker'
+000-arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/PFE/test_incrust_axilite/plat/export/plat/sw/plat/standalone_domain/bsplib/lib -o "appl.elf"  ./src/verbose/verbose.o  ./src/uart/uart_ps.o  ./src/platform/platform.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: appl.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size appl.elf  |tee "appl.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 631643	   3976	 152708	 788327	  c0767	appl.elf
+000-'Finished building: appl.elf.size'
+000-' '
+00255-
+15:52:10 Build Finished (took 3s.531ms)
+

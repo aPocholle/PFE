@@ -1,0 +1,10 @@
+17:17:00 **** Incremental Build of configuration Debug for project app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51149 F:/PFE/test_score/plat/export/plat/plat.xpfm standalone_domain F:/PFE/test_score/app_system/Debug/system.bif
+sdcard_gen --xpfm F:/PFE/test_score/plat/export/plat/plat.xpfm --sys_config plat --bif F:/PFE/test_score/app_system/Debug/system.bif --bitstream F:/PFE/test_score/app/_ide/bitstream/systeme.bit --elf F:/PFE/test_score/app/Debug/app.elf,ps7_cortexa9_0
+creating BOOT.BIN using F:/PFE/test_score/app/_ide/bitstream/systeme.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image F:/PFE/test_score/app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+17:17:06 Build Finished (took 5s.435ms)
+

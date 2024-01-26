@@ -1,0 +1,40 @@
+2023-12-08T16:32:16.395575500255-16:32:16 **** Build of configuration Debug for project app ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/verbose/verbose.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/verbose/verbose.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/Pcam_base_vitis/platform/export/platform/sw/platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/verbose/verbose.d" -MT"src/verbose/verbose.o" -o "src/verbose/verbose.o" "../src/verbose/verbose.c"
+000-'Finished building: ../src/verbose/verbose.c'
+000-' '
+000-'Building file: ../src/uart/uart_ps.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart/uart_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/Pcam_base_vitis/platform/export/platform/sw/platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/uart/uart_ps.d" -MT"src/uart/uart_ps.o" -o "src/uart/uart_ps.o" "../src/uart/uart_ps.c"
+000-'Finished building: ../src/uart/uart_ps.c'
+000-' '
+000-'Building file: ../src/platform/platform.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/Pcam_base_vitis/platform/export/platform/sw/platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform/platform.d" -MT"src/platform/platform.o" -o "src/platform/platform.o" "../src/platform/platform.c"
+000-'Finished building: ../src/platform/platform.c'
+000-' '
+000-'Building file: ../src/main.cc'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/Pcam_base_vitis/platform/export/platform/sw/platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+000-'Finished building: ../src/main.cc'
+000-' '
+000-'Building target: app.elf'
+000-'Invoking: ARM v7 g++ linker'
+000-arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/PFE/Pcam_base_vitis/platform/export/platform/sw/platform/standalone_domain/bsplib/lib -o "app.elf"  ./src/verbose/verbose.o  ./src/uart/uart_ps.o  ./src/platform/platform.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: app.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size app.elf  |tee "app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 630603	   3968	 152692	 787263	  c033f	app.elf
+000-'Finished building: app.elf.size'
+000-' '
+00255-
+16:32:21 Build Finished (took 4s.843ms)
+

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"incrust_finjeu": {
+			"proto_instances": {
+			}
+		}
+	}
+}

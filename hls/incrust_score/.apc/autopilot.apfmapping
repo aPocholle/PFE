@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="incrust_score.cpp" path="F:\PFE\hls\incrust_score\incrust_score.cpp"/>
+    <originFiles name="matrice_0.h" path="F:\PFE\hls\incrust_score\matrice_0.h"/>
+    <originFiles name="matrice_1.h" path="F:\PFE\hls\incrust_score\matrice_1.h"/>
+    <originFiles name="matrice_2.h" path="F:\PFE\hls\incrust_score\matrice_2.h"/>
+    <originFiles name="matrice_3.h" path="F:\PFE\hls\incrust_score\matrice_3.h"/>
+  </source>
+  <testbench>
+    <originFiles name="incrust_tb.cpp" path="F:\PFE\hls\incrust_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

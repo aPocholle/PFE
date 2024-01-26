@@ -1,0 +1,113 @@
+11:42:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\PFE\test_incrust_axilite\temp_xsdb_launch_script.tcl
+11:42:08 INFO  : Registering command handlers for Vitis TCF services
+11:42:08 INFO  : XSCT server has started successfully.
+11:42:12 INFO  : plnx-install-location is set to ''
+11:42:12 INFO  : Successfully done setting XSCT server connection channel  
+11:42:12 INFO  : Successfully done query RDI_DATADIR 
+11:42:12 INFO  : Successfully done setting workspace for the tool. 
+11:43:52 INFO  : Successfully done sdx_reload_mss "F:/PFE/test_incrust_axilite/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+11:43:52 INFO  : Successfully done sdx_reload_mss "F:/PFE/test_incrust_axilite/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+11:45:51 INFO  : Checking for BSP changes to sync application flags for project 'app'...
+11:46:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:46:12 INFO  : Jtag cable 'Digilent Zed 210248B186DF' is selected.
+11:46:12 INFO  : 'jtag frequency' command is executed.
+11:46:12 INFO  : Context for 'APU' is selected.
+11:46:13 INFO  : System reset is completed.
+11:46:16 INFO  : 'after 3000' command is executed.
+11:46:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1' command is executed.
+11:46:18 INFO  : FPGA configured successfully with bitstream "F:/PFE/test_incrust_axilite/app/_ide/bitstream/test_incrust_complet.bit"
+11:46:18 INFO  : Context for 'APU' is selected.
+11:46:18 INFO  : Hardware design information is loaded from 'F:/PFE/test_incrust_axilite/plat/export/plat/hw/test_incrust_complet.xsa'.
+11:46:18 INFO  : 'configparams force-mem-access 1' command is executed.
+11:46:18 INFO  : Context for 'APU' is selected.
+11:46:18 INFO  : Sourcing of 'F:/PFE/test_incrust_axilite/app/_ide/psinit/ps7_init.tcl' is done.
+11:46:19 INFO  : 'ps7_init' command is executed.
+11:46:19 INFO  : 'ps7_post_config' command is executed.
+11:46:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:46:20 INFO  : The application 'F:/PFE/test_incrust_axilite/app/Debug/app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:46:20 INFO  : 'configparams force-mem-access 0' command is executed.
+11:46:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1
+fpga -file F:/PFE/test_incrust_axilite/app/_ide/bitstream/test_incrust_complet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/PFE/test_incrust_axilite/plat/export/plat/hw/test_incrust_complet.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/PFE/test_incrust_axilite/app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/PFE/test_incrust_axilite/app/Debug/app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:46:21 INFO  : Memory regions updated for context APU
+11:46:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:46:21 INFO  : 'con' command is executed.
+11:46:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:46:21 INFO  : Launch script is exported to file 'F:\PFE\test_incrust_axilite\.sdk\launch_scripts\single_application_debug\systemdebugger_app_system_standalone.tcl'
+11:48:06 INFO  : Checking for BSP changes to sync application flags for project 'app'...
+11:48:13 INFO  : Checking for BSP changes to sync application flags for project 'app'...
+11:48:24 INFO  : Disconnected from the channel tcfchan#3.
+11:48:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:24 INFO  : Jtag cable 'Digilent Zed 210248B186DF' is selected.
+11:48:24 INFO  : 'jtag frequency' command is executed.
+11:48:24 INFO  : Context for 'APU' is selected.
+11:48:24 INFO  : System reset is completed.
+11:48:27 INFO  : 'after 3000' command is executed.
+11:48:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1' command is executed.
+11:48:30 INFO  : FPGA configured successfully with bitstream "F:/PFE/test_incrust_axilite/app/_ide/bitstream/test_incrust_complet.bit"
+11:48:30 INFO  : Context for 'APU' is selected.
+11:48:30 INFO  : Hardware design information is loaded from 'F:/PFE/test_incrust_axilite/plat/export/plat/hw/test_incrust_complet.xsa'.
+11:48:30 INFO  : 'configparams force-mem-access 1' command is executed.
+11:48:30 INFO  : Context for 'APU' is selected.
+11:48:30 INFO  : Sourcing of 'F:/PFE/test_incrust_axilite/app/_ide/psinit/ps7_init.tcl' is done.
+11:48:30 INFO  : 'ps7_init' command is executed.
+11:48:30 INFO  : 'ps7_post_config' command is executed.
+11:48:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:32 INFO  : The application 'F:/PFE/test_incrust_axilite/app/Debug/app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:48:32 INFO  : 'configparams force-mem-access 0' command is executed.
+11:48:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1
+fpga -file F:/PFE/test_incrust_axilite/app/_ide/bitstream/test_incrust_complet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/PFE/test_incrust_axilite/plat/export/plat/hw/test_incrust_complet.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/PFE/test_incrust_axilite/app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/PFE/test_incrust_axilite/app/Debug/app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:48:32 INFO  : Memory regions updated for context APU
+11:48:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:32 INFO  : 'con' command is executed.
+11:48:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:48:32 INFO  : Launch script is exported to file 'F:\PFE\test_incrust_axilite\.sdk\launch_scripts\single_application_debug\systemdebugger_app_system_standalone.tcl'
+14:59:28 INFO  : Disconnected from the channel tcfchan#5.
+15:00:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\PFE\test_incrust_axilite\temp_xsdb_launch_script.tcl
+15:00:04 INFO  : Registering command handlers for Vitis TCF services
+15:00:05 INFO  : XSCT server has started successfully.
+15:00:05 INFO  : plnx-install-location is set to ''
+15:00:08 INFO  : Successfully done setting XSCT server connection channel  
+15:00:08 INFO  : Successfully done query RDI_DATADIR 
+15:00:08 INFO  : Successfully done setting workspace for the tool. 

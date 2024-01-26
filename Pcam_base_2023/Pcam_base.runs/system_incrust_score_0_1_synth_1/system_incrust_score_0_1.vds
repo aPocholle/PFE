@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Dec 21 16:27:41 2023
+# Process ID: 5488
+# Current directory: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1
+# Command line: vivado.exe -log system_incrust_score_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_incrust_score_0_1.tcl
+# Log file: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1/system_incrust_score_0_1.vds
+# Journal file: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1\vivado.jou
+# Running On: DESKTOP-Q8QIOJU, OS: Windows, CPU Frequency: 3592 MHz, CPU Physical cores: 4, Host memory: 34263 MB
+#-----------------------------------------------------------
+source system_incrust_score_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1453.875 ; gain = 153.988
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/PFE/Pcam_base_2023/repo_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/PFE/hls/incrust'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/PFE/hls/incrust_score'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_incrust_score_0_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry dc81e402fa96c73a to dir: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/PFE/Pcam_base_2023/Pcam_base.cache/ip/2023.1/d/c/dc81e402fa96c73a/system_incrust_score_0_0.dcp to F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1/system_incrust_score_0_1.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/PFE/Pcam_base_2023/Pcam_base.cache/ip/2023.1/d/c/dc81e402fa96c73a/system_incrust_score_0_0_sim_netlist.v to F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1/system_incrust_score_0_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/PFE/Pcam_base_2023/Pcam_base.cache/ip/2023.1/d/c/dc81e402fa96c73a/system_incrust_score_0_0_sim_netlist.vhdl to F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1/system_incrust_score_0_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/PFE/Pcam_base_2023/Pcam_base.cache/ip/2023.1/d/c/dc81e402fa96c73a/system_incrust_score_0_0_stub.v to F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1/system_incrust_score_0_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/PFE/Pcam_base_2023/Pcam_base.cache/ip/2023.1/d/c/dc81e402fa96c73a/system_incrust_score_0_0_stub.vhdl to F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_score_0_1_synth_1/system_incrust_score_0_1_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_incrust_score_0_1, cache-ID = dc81e402fa96c73a.
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 21 16:27:54 2023...

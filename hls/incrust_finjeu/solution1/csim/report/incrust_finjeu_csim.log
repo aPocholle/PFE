@@ -1,0 +1,26 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../incrustfinjeu.cpp in debug mode
+csim.mk:80: recipe for target 'obj/incrustfinjeu.o' failed
+In file included from C:/Xilinx/Vivado/2019.2/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from C:/Xilinx/Vivado/2019.2/include/hls_fpo.h:186,
+                 from C:/Xilinx/Vivado/2019.2/include/hls_half.h:44,
+                 from C:/Xilinx/Vivado/2019.2/include/etc/ap_private.h:90,
+                 from C:/Xilinx/Vivado/2019.2/include/ap_common.h:641,
+                 from C:/Xilinx/Vivado/2019.2/include/ap_int.h:54,
+                 from ../../../incrustfinjeu.cpp:1:
+C:/Xilinx/Vivado/2019.2/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from C:/Xilinx/Vivado/2019.2/include/hls_fpo.h:186:0,
+                 from C:/Xilinx/Vivado/2019.2/include/hls_half.h:44,
+                 from C:/Xilinx/Vivado/2019.2/include/etc/ap_private.h:90,
+                 from C:/Xilinx/Vivado/2019.2/include/ap_common.h:641,
+                 from C:/Xilinx/Vivado/2019.2/include/ap_int.h:54,
+                 from ../../../incrustfinjeu.cpp:1:
+C:/Xilinx/Vivado/2019.2/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+make: *** [obj/incrustfinjeu.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

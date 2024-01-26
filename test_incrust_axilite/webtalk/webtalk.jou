@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Thu Dec 21 14:59:30 2023
+# Process ID: 2408
+# Current directory: F:/PFE/test_incrust_axilite/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: F:/PFE/test_incrust_axilite/webtalk/webtalk.log
+# Journal file: F:/PFE/test_incrust_axilite/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

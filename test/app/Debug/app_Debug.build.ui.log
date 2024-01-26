@@ -1,0 +1,25 @@
+2023-12-22T17:16:56.757497500255-17:16:56 **** Incremental Build of configuration Debug for project app ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.cc'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/PFE/test_score/plat/export/plat/sw/plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+000-'Finished building: ../src/main.cc'
+000-' '
+000-'Building target: app.elf'
+000-'Invoking: ARM v7 g++ linker'
+000-arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/PFE/test_score/plat/export/plat/sw/plat/standalone_domain/bsplib/lib -o "app.elf"  ./src/verbose/verbose.o  ./src/uart/uart_ps.o  ./src/platform/platform.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: app.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size app.elf  |tee "app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 633731	   3992	 152732	 790455	  c0fb7	app.elf
+000-'Finished building: app.elf.size'
+000-' '
+00255-
+17:17:00 Build Finished (took 3s.432ms)
+

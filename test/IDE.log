@@ -1,0 +1,10 @@
+16:10:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\PFE\test\temp_xsdb_launch_script.tcl
+16:10:12 INFO  : Registering command handlers for Vitis TCF services
+16:10:13 INFO  : XSCT server has started successfully.
+16:10:16 INFO  : plnx-install-location is set to ''
+16:10:16 INFO  : Successfully done setting XSCT server connection channel  
+16:10:16 INFO  : Successfully done query RDI_DATADIR 
+16:10:16 INFO  : Successfully done setting workspace for the tool. 
+16:12:29 INFO  : Successfully done sdx_reload_mss "F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+16:12:29 INFO  : Successfully done sdx_reload_mss "F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+16:15:20 INFO  : Checking for BSP changes to sync application flags for project 'appli'...

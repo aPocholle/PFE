@@ -1,0 +1,4299 @@
+!SESSION 2024-01-18 16:09:36.693 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-01-18 16:10:02.303
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2024-01-18 16:10:05.755
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.ui 4 4 2024-01-18 16:10:07.303
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2024-01-18 16:10:07.308
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-18 16:10:08.515
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Juliette GAGNEPAIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:13.129
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:13.129
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:13.130
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.205
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.205
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.205
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.206
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.223
+!MESSAGE XSCT Command: [setws F:/PFE/test], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.223
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2019.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:10:16.238
+!MESSAGE XSCT command with result: [setws F:/PFE/test], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-01-18 16:11:29.443
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2019.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:37.392
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/PFE/test/hardware.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.596
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/PFE/test/hardware.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.617
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/PFE/test/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.640
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/PFE/test/hardware.xsa], Result: [null, {"AXI_BayerToRGB_A": {"hier_name": "AXI_BayerToRGB_A",
+"type": "AXI_BayerToRGB",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"AXI_BayerToRGB_B": {"hier_name": "AXI_BayerToRGB_B",
+"type": "AXI_BayerToRGB",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"AXI_GammaCorrection_A": {"hier_name": "AXI_GammaCorrection_A",
+"type": "AXI_GammaCorrection",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"AXI_GammaCorrection_B": {"hier_name": "AXI_GammaCorrection_B",
+"type": "AXI_GammaCorrection",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_CSI_2_RX_A": {"hier_name": "MIPI_CSI_2_RX_A",
+"type": "MIPI_CSI_2_RX",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_CSI_2_RX_B": {"hier_name": "MIPI_CSI_2_RX_B",
+"type": "MIPI_CSI_2_RX",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_D_PHY_RX_A": {"hier_name": "MIPI_D_PHY_RX_A",
+"type": "MIPI_D_PHY_RX",
+"version": "1.3",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_D_PHY_RX_B": {"hier_name": "MIPI_D_PHY_RX_B",
+"type": "MIPI_D_PHY_RX",
+"version": "1.3",
+"ip_type": "PERIPHERAL",
+},
+"apstart": {"hier_name": "apstart",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"axi_cama_bta": {"hier_name": "axi_cama_bta",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_cama_gpio": {"hier_name": "axi_cama_gpio",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_mem_intercon": {"hier_name": "axi_mem_intercon",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_mem_intercon_1": {"hier_name": "axi_mem_intercon_1",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_vdma_a": {"hier_name": "axi_vdma_a",
+"type": "axi_vdma",
+"version": "6.3",
+"ip_type": "PERIPHERAL",
+},
+"axi_vdma_b": {"hier_name": "axi_vdma_b",
+"type": "axi_vdma",
+"version": "6.3",
+"ip_type": "PERIPHERAL",
+},
+"c_grav_0": {"hier_name": "c_grav_0",
+"type": "c_grav",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"c_grav_1": {"hier_name": "c_grav_1",
+"type": "c_grav",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"cama_gpio_dir": {"hier_name": "cama_gpio_dir",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"cama_gpio_oen": {"hier_name": "cama_gpio_oen",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"color0": {"hier_name": "color0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"color1": {"hier_name": "color1",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"droite": {"hier_name": "droite",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"gauche": {"hier_name": "gauche",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"hsize": {"hier_name": "hsize",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_0": {"hier_name": "incrust_0",
+"type": "incrust",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_ball_0": {"hier_name": "incrust_ball_0",
+"type": "incrust_ball",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_ball_1": {"hier_name": "incrust_ball_1",
+"type": "incrust_ball",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_ball_2": {"hier_name": "incrust_ball_2",
+"type": "incrust_ball",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_bar_0": {"hier_name": "incrust_bar_0",
+"type": "incrust_bar",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_bar_1": {"hier_name": "incrust_bar_1",
+"type": "incrust_bar",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_score_0": {"hier_name": "incrust_score_0",
+"type": "incrust_score",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_score_1": {"hier_name": "incrust_score_1",
+"type": "incrust_score",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"proc_sys_reset_0": {"hier_name": "proc_sys_reset_0",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rgb2vga_0": {"hier_name": "rgb2vga_0",
+"type": "rgb2vga",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_0_50M": {"hier_name": "rst_clk_wiz_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_system_150M": {"hier_name": "rst_system_150M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"util_vector_logic_0": {"hier_name": "util_vector_logic_0",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"v_axi4s_vid_out_0": {"hier_name": "v_axi4s_vid_out_0",
+"type": "v_axi4s_vid_out",
+"version": "4.0",
+"ip_type": "PERIPHERAL",
+},
+"v_tc_0": {"hier_name": "v_tc_0",
+"type": "v_tc",
+"version": "6.2",
+"ip_type": "PERIPHERAL",
+},
+"video_scaler_a": {"hier_name": "video_scaler_a",
+"type": "video_scaler",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"video_scaler_b": {"hier_name": "video_scaler_b",
+"type": "video_scaler",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"vsize": {"hier_name": "vsize",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_1": {"hier_name": "xlconcat_1",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_0": {"hier_name": "xlconstant_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.686
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json F:/PFE/test/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.698
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json F:/PFE/test/hardware.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.709
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json F:/PFE/test/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:11:39.711
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json F:/PFE/test/hardware.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Thu Jan 18 15:49:32 2024",
+"vivado_version": "2019.2",
+"part": "xc7z020clg484-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:06.403
+!MESSAGE XSCT Command: [platform create -name {plat} -hw {F:\PFE\test\hardware.xsa} -proc {ps7_cortexa9_0} -os {standalone} -out {F:/PFE/test};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-18 16:12:06.534
+!MESSAGE Indexed 'plat' (0 sources, 0 headers) in 0,002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:24.155
+!MESSAGE XSCT command with result: [platform create -name {plat} -hw {F:\PFE\test\hardware.xsa} -proc {ps7_cortexa9_0} -os {standalone} -out {F:/PFE/test};platform write], Result: [null, Successfully saved  the platform at "F:/PFE/test/plat/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:24.419
+!MESSAGE XSCT Command: [platform read {F:\PFE\test\plat\platform.spr}], Thread: Worker-2: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:24.427
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/PFE/test/plat/hw/hardware.xsa], Thread: Worker-9: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:24.727
+!MESSAGE XSCT Command: [platform active {plat}], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.446
+!MESSAGE XSCT command with result: [platform read {F:\PFE\test\plat\platform.spr}], Result: [null, ]. Thread: Worker-2: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.447
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/PFE/test/plat/hw/hardware.xsa], Result: [null, ]. Thread: Worker-9: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.447
+!MESSAGE XSCT command with result: [platform active {plat}], Result: [null, ]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.448
+!MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.448
+!MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.449
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.449
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, F:/PFE/test/plat/hw/hardware.xsa]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.450
+!MESSAGE XSCT Command: [::scw::regenerate_psinit F:/PFE/test/plat/hw/hardware.xsa], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.451
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit F:/PFE/test/plat/hw/hardware.xsa], Result: [null, ]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.451
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.464
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.470
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss ], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.472
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss ], Result: [null, ]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.473
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.480
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-7: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.482
+!MESSAGE XSCT Command: [domain active {standalone_domain}], Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.482
+!MESSAGE XSCT command with result: [domain active {standalone_domain}], Result: [null, ]. Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.483
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.483
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, F:/PFE/test/plat/hw/hardware.xsa]. Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.484
+!MESSAGE XSCT Command: [::scw::regenerate_psinit F:/PFE/test/plat/hw/hardware.xsa], Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.485
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit F:/PFE/test/plat/hw/hardware.xsa], Result: [null, ]. Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.485
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.486
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json F:/PFE/test/plat/hw/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.513
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss]. Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.513
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss ], Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.514
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json F:/PFE/test/plat/hw/hardware.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.515
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss ], Result: [null, ]. Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.516
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.518
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-9: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.522
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs F:/PFE/test/plat/hw/hardware.xsa ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.524
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs F:/PFE/test/plat/hw/hardware.xsa ps7_cortexa9_0], Result: [null, AXI_GammaCorrection_A AXI_GammaCorrection_B MIPI_CSI_2_RX_A MIPI_CSI_2_RX_B MIPI_D_PHY_RX_A MIPI_D_PHY_RX_B axi_cama_bta axi_cama_gpio axi_vdma_a axi_vdma_b c_grav_0 c_grav_1 incrust_0 incrust_ball_0 incrust_ball_1 incrust_ball_2 incrust_bar_0 incrust_bar_1 incrust_score_0 incrust_score_1 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0 video_scaler_a video_scaler_b]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.524
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.545
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"AXI_GammaCorrection_A": {"name": "generic",
+"ver": "2.0",
+},
+"AXI_GammaCorrection_B": {"name": "generic",
+"ver": "2.0",
+},
+"MIPI_CSI_2_RX_A": {"name": "MIPI_CSI_2_RX",
+"ver": "1.0",
+},
+"MIPI_CSI_2_RX_B": {"name": "MIPI_CSI_2_RX",
+"ver": "1.0",
+},
+"MIPI_D_PHY_RX_A": {"name": "MIPI_D_PHY_RX",
+"ver": "1.0",
+},
+"MIPI_D_PHY_RX_B": {"name": "MIPI_D_PHY_RX",
+"ver": "1.0",
+},
+"axi_cama_bta": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_cama_gpio": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_vdma_a": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_b": {"name": "axivdma",
+"ver": "6.6",
+},
+"c_grav_0": {"name": "c_grav",
+"ver": "1.1",
+},
+"c_grav_1": {"name": "c_grav",
+"ver": "1.1",
+},
+"incrust_0": {"name": "incrust",
+"ver": "1.1",
+},
+"incrust_ball_0": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_ball_1": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_ball_2": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_bar_0": {"name": "incrust_bar",
+"ver": "1.1",
+},
+"incrust_bar_1": {"name": "incrust_bar",
+"ver": "1.1",
+},
+"incrust_score_0": {"name": "incrust_score",
+"ver": "1.1",
+},
+"incrust_score_1": {"name": "incrust_score",
+"ver": "1.1",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.6",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.5",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.5",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.10",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.6",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.10",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.1",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.8",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.8",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"video_scaler_a": {"name": "video_scaler",
+"ver": "1.0",
+},
+"video_scaler_b": {"name": "video_scaler",
+"ver": "1.0",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.546
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json F:/PFE/test/plat/hw/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.807
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json F:/PFE/test/plat/hw/hardware.xsa], Result: [null, {"AXI_BayerToRGB_A": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"AXI_BayerToRGB_B": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"AXI_GammaCorrection_A": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"AXI_GammaCorrection_B": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"MIPI_CSI_2_RX_A": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_CSI_2_RX_v1_0": {"name": "MIPI_CSI_2_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/hw/drivers/MIPI_CSI_2_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"MIPI_CSI_2_RX_B": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_CSI_2_RX_v1_0": {"name": "MIPI_CSI_2_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/hw/drivers/MIPI_CSI_2_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"MIPI_D_PHY_RX_A": {"version": "1.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_D_PHY_RX_v1_0": {"name": "MIPI_D_PHY_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/hw/drivers/MIPI_D_PHY_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"MIPI_D_PHY_RX_B": {"version": "1.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_D_PHY_RX_v1_0": {"name": "MIPI_D_PHY_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/hw/drivers/MIPI_D_PHY_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"apstart": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_cama_bta": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_cama_gpio": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_mem_intercon": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_mem_intercon_1": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_vdma_a": {"version": "6.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"axivdma_v6_6": {"name": "axivdma",
+"version": "6.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axivdma_v6_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_vdma_b": {"version": "6.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"axivdma_v6_6": {"name": "axivdma",
+"version": "6.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axivdma_v6_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"c_grav_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"c_grav_v1_1": {"name": "c_grav",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/c_grav_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"c_grav_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"c_grav_v1_1": {"name": "c_grav",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/c_grav_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"cama_gpio_dir": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"cama_gpio_oen": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"clk_wiz_0": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"color0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"color1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"droite": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"gauche": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"hsize": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"incrust_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+"incrust_bar_v1_1": {"name": "incrust_bar",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_bar_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+"incrust_score_v1_1": {"name": "incrust_score",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_score_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+"incrust_v1_1": {"name": "incrust",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_ball_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_ball_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_ball_2": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_bar_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_bar_v1_1": {"name": "incrust_bar",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_bar_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_bar_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_bar_v1_1": {"name": "incrust_bar",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_bar_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_score_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_score_v1_1": {"name": "incrust_score",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_score_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_score_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_score_v1_1": {"name": "incrust_score",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/hw/drivers/incrust_score_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"proc_sys_reset_0": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"processing_system7_0": {"version": "5.5",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rgb2vga_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_0_50M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_system_150M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"util_vector_logic_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"v_axi4s_vid_out_0": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"v_tc_0": {"version": "6.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"vtc_v8_0": {"name": "vtc",
+"version": "8.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/vtc_v8_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"video_scaler_a": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"video_scaler_v1_0": {"name": "video_scaler",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/hw/drivers/video_scaler_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"video_scaler_b": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"video_scaler_v1_0": {"name": "video_scaler",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/hw/drivers/video_scaler_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"vsize": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"xlconcat_0": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"xlconcat_1": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"xlconstant_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_clockc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_uart_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartps_v3_8": {"name": "uartps",
+"version": "3.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_pl310_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_pmu_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_qspi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"qspips_v3_6": {"name": "qspips",
+"version": "3.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_qspi_linear_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_axi_interconnect_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_cortexa9_0": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_8": {"name": "cpu_cortexa9",
+"version": "2.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_cortexa9_1": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_8": {"name": "cpu_cortexa9",
+"version": "2.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"ddrps_v1_0": {"name": "ddrps",
+"version": "1.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrps_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ethernet_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"emacps_v3_10": {"name": "emacps",
+"version": "3.10",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_usb_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"usbps_v2_4": {"name": "usbps",
+"version": "2.4",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_sd_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"sdps_v3_8": {"name": "sdps",
+"version": "3.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v3_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_i2c_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"iicps_v3_10": {"name": "iicps",
+"version": "3.10",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iicps_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpio_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpiops_v3_6": {"name": "gpiops",
+"version": "3.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddrc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dev_cfg_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"devcfg_v3_5": {"name": "devcfg",
+"version": "3.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_xadc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"xadcps_v2_3": {"name": "xadcps",
+"version": "2.3",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ocmc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_coresight_comp_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"coresightps_dcc_v1_6": {"name": "coresightps_dcc",
+"version": "1.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpv_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scuc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_globaltimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_intc_dist_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_l2cachec_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_s": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_5": {"name": "dmaps",
+"version": "2.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_iop_bus_config_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scugic_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scugic_v4_1": {"name": "scugic",
+"version": "4.1",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v4_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scutimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scutimer_v2_1": {"name": "scutimer",
+"version": "2.1",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scuwdt_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scuwdt_v2_1": {"name": "scuwdt",
+"version": "2.1",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_slcr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_ns": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_5": {"name": "dmaps",
+"version": "2.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_afi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_2": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_3": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_m_axi_gp0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.892
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.893
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, xilffs xilrsa]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.894
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.912
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"xilffs": "4.2",
+"xilrsa": "1.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.914
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.2"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.918
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.2"  && TYPE == "LIBRARY"}]], Result: [null, C:/Xilinx/Vitis/2019.2/data\embeddedsw\lib\sw_services\xilffs_v4_2]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.920
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.5"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.924
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.5"  && TYPE == "LIBRARY"}]], Result: [null, C:/Xilinx/Vitis/2019.2/data\embeddedsw\lib\sw_services\xilrsa_v1_5]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:28.939
+!MESSAGE XSCT Command: [::scw::sdx_reload_mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.014
+!MESSAGE XSCT command with result: [::scw::sdx_reload_mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.022
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.032
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, {"AXI_GammaCorrection_A": {"name": "generic",
+"ver": "2.0",
+},
+"AXI_GammaCorrection_B": {"name": "generic",
+"ver": "2.0",
+},
+"MIPI_CSI_2_RX_A": {"name": "MIPI_CSI_2_RX",
+"ver": "1.0",
+},
+"MIPI_CSI_2_RX_B": {"name": "MIPI_CSI_2_RX",
+"ver": "1.0",
+},
+"MIPI_D_PHY_RX_A": {"name": "MIPI_D_PHY_RX",
+"ver": "1.0",
+},
+"MIPI_D_PHY_RX_B": {"name": "MIPI_D_PHY_RX",
+"ver": "1.0",
+},
+"axi_cama_bta": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_cama_gpio": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_vdma_a": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_b": {"name": "axivdma",
+"ver": "6.6",
+},
+"c_grav_0": {"name": "c_grav",
+"ver": "1.1",
+},
+"c_grav_1": {"name": "c_grav",
+"ver": "1.1",
+},
+"incrust_0": {"name": "incrust",
+"ver": "1.1",
+},
+"incrust_ball_0": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_ball_1": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_ball_2": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_bar_0": {"name": "incrust_bar",
+"ver": "1.1",
+},
+"incrust_bar_1": {"name": "incrust_bar",
+"ver": "1.1",
+},
+"incrust_score_0": {"name": "incrust_score",
+"ver": "1.1",
+},
+"incrust_score_1": {"name": "incrust_score",
+"ver": "1.1",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.6",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.5",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.5",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.10",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.6",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.10",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.1",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.8",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.8",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"video_scaler_a": {"name": "video_scaler",
+"ver": "1.0",
+},
+"video_scaler_b": {"name": "video_scaler",
+"ver": "1.0",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.085
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.087
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/hw/hardware.xsa F:/PFE/test/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.107
+!MESSAGE XSCT Command: [::scw::sdx_reload_mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:12:29.183
+!MESSAGE XSCT command with result: [::scw::sdx_reload_mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:09.993
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/PFE/test/plat/export/plat/hw/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:12.777
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/PFE/test/plat/export/plat/hw/hardware.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:12.778
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:12.803
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Result: [null, {"AXI_BayerToRGB_A": {"hier_name": "AXI_BayerToRGB_A",
+"type": "AXI_BayerToRGB",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"AXI_BayerToRGB_B": {"hier_name": "AXI_BayerToRGB_B",
+"type": "AXI_BayerToRGB",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"AXI_GammaCorrection_A": {"hier_name": "AXI_GammaCorrection_A",
+"type": "AXI_GammaCorrection",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"AXI_GammaCorrection_B": {"hier_name": "AXI_GammaCorrection_B",
+"type": "AXI_GammaCorrection",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_CSI_2_RX_A": {"hier_name": "MIPI_CSI_2_RX_A",
+"type": "MIPI_CSI_2_RX",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_CSI_2_RX_B": {"hier_name": "MIPI_CSI_2_RX_B",
+"type": "MIPI_CSI_2_RX",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_D_PHY_RX_A": {"hier_name": "MIPI_D_PHY_RX_A",
+"type": "MIPI_D_PHY_RX",
+"version": "1.3",
+"ip_type": "PERIPHERAL",
+},
+"MIPI_D_PHY_RX_B": {"hier_name": "MIPI_D_PHY_RX_B",
+"type": "MIPI_D_PHY_RX",
+"version": "1.3",
+"ip_type": "PERIPHERAL",
+},
+"apstart": {"hier_name": "apstart",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"axi_cama_bta": {"hier_name": "axi_cama_bta",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_cama_gpio": {"hier_name": "axi_cama_gpio",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_mem_intercon": {"hier_name": "axi_mem_intercon",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_mem_intercon_1": {"hier_name": "axi_mem_intercon_1",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_vdma_a": {"hier_name": "axi_vdma_a",
+"type": "axi_vdma",
+"version": "6.3",
+"ip_type": "PERIPHERAL",
+},
+"axi_vdma_b": {"hier_name": "axi_vdma_b",
+"type": "axi_vdma",
+"version": "6.3",
+"ip_type": "PERIPHERAL",
+},
+"c_grav_0": {"hier_name": "c_grav_0",
+"type": "c_grav",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"c_grav_1": {"hier_name": "c_grav_1",
+"type": "c_grav",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"cama_gpio_dir": {"hier_name": "cama_gpio_dir",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"cama_gpio_oen": {"hier_name": "cama_gpio_oen",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"color0": {"hier_name": "color0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"color1": {"hier_name": "color1",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"droite": {"hier_name": "droite",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"gauche": {"hier_name": "gauche",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"hsize": {"hier_name": "hsize",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_0": {"hier_name": "incrust_0",
+"type": "incrust",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_ball_0": {"hier_name": "incrust_ball_0",
+"type": "incrust_ball",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_ball_1": {"hier_name": "incrust_ball_1",
+"type": "incrust_ball",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_ball_2": {"hier_name": "incrust_ball_2",
+"type": "incrust_ball",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_bar_0": {"hier_name": "incrust_bar_0",
+"type": "incrust_bar",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_bar_1": {"hier_name": "incrust_bar_1",
+"type": "incrust_bar",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_score_0": {"hier_name": "incrust_score_0",
+"type": "incrust_score",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"incrust_score_1": {"hier_name": "incrust_score_1",
+"type": "incrust_score",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"proc_sys_reset_0": {"hier_name": "proc_sys_reset_0",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rgb2vga_0": {"hier_name": "rgb2vga_0",
+"type": "rgb2vga",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_0_50M": {"hier_name": "rst_clk_wiz_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_system_150M": {"hier_name": "rst_system_150M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"util_vector_logic_0": {"hier_name": "util_vector_logic_0",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"v_axi4s_vid_out_0": {"hier_name": "v_axi4s_vid_out_0",
+"type": "v_axi4s_vid_out",
+"version": "4.0",
+"ip_type": "PERIPHERAL",
+},
+"v_tc_0": {"hier_name": "v_tc_0",
+"type": "v_tc",
+"version": "6.2",
+"ip_type": "PERIPHERAL",
+},
+"video_scaler_a": {"hier_name": "video_scaler_a",
+"type": "video_scaler",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"video_scaler_b": {"hier_name": "video_scaler_b",
+"type": "video_scaler",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"vsize": {"hier_name": "vsize",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_1": {"hier_name": "xlconcat_1",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_0": {"hier_name": "xlconstant_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:16.586
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:16.597
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:16.597
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:16.600
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.920
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.934
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.935
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.937
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.937
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.946
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.947
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs F:/PFE/test/plat/export/plat/hw/hardware.xsa ps7_cortexa9_0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.949
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs F:/PFE/test/plat/export/plat/hw/hardware.xsa ps7_cortexa9_0], Result: [null, AXI_GammaCorrection_A AXI_GammaCorrection_B MIPI_CSI_2_RX_A MIPI_CSI_2_RX_B MIPI_D_PHY_RX_A MIPI_D_PHY_RX_B axi_cama_bta axi_cama_gpio axi_vdma_a axi_vdma_b c_grav_0 c_grav_1 incrust_0 incrust_ball_0 incrust_ball_1 incrust_ball_2 incrust_bar_0 incrust_bar_1 incrust_score_0 incrust_score_1 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0 video_scaler_a video_scaler_b]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.949
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.962
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Result: [null, {"AXI_GammaCorrection_A": {"name": "generic",
+"ver": "2.0",
+},
+"AXI_GammaCorrection_B": {"name": "generic",
+"ver": "2.0",
+},
+"MIPI_CSI_2_RX_A": {"name": "MIPI_CSI_2_RX",
+"ver": "1.0",
+},
+"MIPI_CSI_2_RX_B": {"name": "MIPI_CSI_2_RX",
+"ver": "1.0",
+},
+"MIPI_D_PHY_RX_A": {"name": "MIPI_D_PHY_RX",
+"ver": "1.0",
+},
+"MIPI_D_PHY_RX_B": {"name": "MIPI_D_PHY_RX",
+"ver": "1.0",
+},
+"axi_cama_bta": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_cama_gpio": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_vdma_a": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_b": {"name": "axivdma",
+"ver": "6.6",
+},
+"c_grav_0": {"name": "c_grav",
+"ver": "1.1",
+},
+"c_grav_1": {"name": "c_grav",
+"ver": "1.1",
+},
+"incrust_0": {"name": "incrust",
+"ver": "1.1",
+},
+"incrust_ball_0": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_ball_1": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_ball_2": {"name": "incrust_ball",
+"ver": "1.1",
+},
+"incrust_bar_0": {"name": "incrust_bar",
+"ver": "1.1",
+},
+"incrust_bar_1": {"name": "incrust_bar",
+"ver": "1.1",
+},
+"incrust_score_0": {"name": "incrust_score",
+"ver": "1.1",
+},
+"incrust_score_1": {"name": "incrust_score",
+"ver": "1.1",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.6",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.5",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.5",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.10",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.6",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.10",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.1",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.8",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.8",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"video_scaler_a": {"name": "video_scaler",
+"ver": "1.0",
+},
+"video_scaler_b": {"name": "video_scaler",
+"ver": "1.0",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.8",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:17.963
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.267
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Result: [null, {"AXI_BayerToRGB_A": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"AXI_BayerToRGB_B": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"AXI_GammaCorrection_A": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"AXI_GammaCorrection_B": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"MIPI_CSI_2_RX_A": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_CSI_2_RX_v1_0": {"name": "MIPI_CSI_2_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/MIPI_CSI_2_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"MIPI_CSI_2_RX_B": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_CSI_2_RX_v1_0": {"name": "MIPI_CSI_2_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/MIPI_CSI_2_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"MIPI_D_PHY_RX_A": {"version": "1.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_D_PHY_RX_v1_0": {"name": "MIPI_D_PHY_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/MIPI_D_PHY_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"MIPI_D_PHY_RX_B": {"version": "1.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"MIPI_D_PHY_RX_v1_0": {"name": "MIPI_D_PHY_RX",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/MIPI_D_PHY_RX_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"apstart": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_cama_bta": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_cama_gpio": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_mem_intercon": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_mem_intercon_1": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_vdma_a": {"version": "6.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"axivdma_v6_6": {"name": "axivdma",
+"version": "6.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axivdma_v6_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_vdma_b": {"version": "6.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"axivdma_v6_6": {"name": "axivdma",
+"version": "6.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axivdma_v6_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"c_grav_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"c_grav_v1_1": {"name": "c_grav",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/c_grav_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"c_grav_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"c_grav_v1_1": {"name": "c_grav",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/c_grav_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"cama_gpio_dir": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"cama_gpio_oen": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"clk_wiz_0": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"color0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"color1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"droite": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"gauche": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"hsize": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"incrust_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+"incrust_bar_v1_1": {"name": "incrust_bar",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_bar_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+"incrust_score_v1_1": {"name": "incrust_score",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_score_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+"incrust_v1_1": {"name": "incrust",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_ball_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_ball_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_ball_2": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_ball_v1_1": {"name": "incrust_ball",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_ball_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_bar_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_bar_v1_1": {"name": "incrust_bar",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_bar_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_bar_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_bar_v1_1": {"name": "incrust_bar",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_bar_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_score_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_score_v1_1": {"name": "incrust_score",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_score_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"incrust_score_1": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"incrust_score_v1_1": {"name": "incrust_score",
+"version": "1.1",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/incrust_score_v1_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"proc_sys_reset_0": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"processing_system7_0": {"version": "5.5",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rgb2vga_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_0_50M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_system_150M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"util_vector_logic_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"v_axi4s_vid_out_0": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"v_tc_0": {"version": "6.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"vtc_v8_0": {"name": "vtc",
+"version": "8.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/vtc_v8_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"video_scaler_a": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"video_scaler_v1_0": {"name": "video_scaler",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/video_scaler_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"video_scaler_b": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"video_scaler_v1_0": {"name": "video_scaler",
+"version": "1.0",
+"repo": "F:/PFE/test/plat/export/plat/hw/drivers/video_scaler_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"vsize": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"xlconcat_0": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"xlconcat_1": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"xlconstant_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_clockc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_uart_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartps_v3_8": {"name": "uartps",
+"version": "3.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_pl310_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_pmu_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_qspi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"qspips_v3_6": {"name": "qspips",
+"version": "3.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_qspi_linear_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_axi_interconnect_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_cortexa9_0": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_8": {"name": "cpu_cortexa9",
+"version": "2.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_cortexa9_1": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_8": {"name": "cpu_cortexa9",
+"version": "2.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"ddrps_v1_0": {"name": "ddrps",
+"version": "1.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrps_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ethernet_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"emacps_v3_10": {"name": "emacps",
+"version": "3.10",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_usb_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"usbps_v2_4": {"name": "usbps",
+"version": "2.4",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_sd_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"sdps_v3_8": {"name": "sdps",
+"version": "3.8",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v3_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_i2c_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"iicps_v3_10": {"name": "iicps",
+"version": "3.10",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iicps_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpio_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpiops_v3_6": {"name": "gpiops",
+"version": "3.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddrc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dev_cfg_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"devcfg_v3_5": {"name": "devcfg",
+"version": "3.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_xadc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"xadcps_v2_3": {"name": "xadcps",
+"version": "2.3",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ocmc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_coresight_comp_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"coresightps_dcc_v1_6": {"name": "coresightps_dcc",
+"version": "1.6",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpv_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scuc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_globaltimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_intc_dist_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_l2cachec_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_s": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_5": {"name": "dmaps",
+"version": "2.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_iop_bus_config_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scugic_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scugic_v4_1": {"name": "scugic",
+"version": "4.1",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v4_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scutimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scutimer_v2_1": {"name": "scutimer",
+"version": "2.1",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scuwdt_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scuwdt_v2_1": {"name": "scuwdt",
+"version": "2.1",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_slcr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_ns": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_5": {"name": "dmaps",
+"version": "2.5",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_afi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_2": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_3": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_m_axi_gp0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.270
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.272
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.273
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.277
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/appli/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.361
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/PFE/test/plat/export/plat/hw/hardware.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.363
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/PFE/test/plat/export/plat/hw/hardware.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.365
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.376
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/PFE/test/appli/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.377
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw F:/PFE/test/plat/export/plat/hw/hardware.xsa -sw F:/PFE/test/appli/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir F:/PFE/test/appli/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.451
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw F:/PFE/test/plat/export/plat/hw/hardware.xsa -sw F:/PFE/test/appli/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir F:/PFE/test/appli/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.501
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {F:\PFE\test\appli\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.556
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {F:\PFE\test\appli\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.557
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.559
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json F:/PFE/test/plat/export/plat/hw/hardware.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Thu Jan 18 15:49:32 2024",
+"vivado_version": "2019.2",
+"part": "xc7z020clg484-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:18.560
+!MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {F:/PFE/test/appli/_ide/psinit} -quiet], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:24.662
+!MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {F:/PFE/test/appli/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:24.941
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/PFE/test/appli/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:13:24.942
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/PFE/test/appli/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-01-18 16:13:24.990
+!MESSAGE Generating MD5 hash for file: F:\PFE\test\plat\export\plat\sw\plat\standalone_domain\system.mss ...
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-18 16:13:25.742
+!MESSAGE Indexed 'appli_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-18 16:13:25.743
+!MESSAGE Indexed 'appli' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.ui 4 4 2024-01-18 16:14:02.893
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@1fa51751} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.331
+!MESSAGE Error: <anonymous> is not a member of GPIO_Client
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of GPIO_Client
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:883)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:58)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:42)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:878)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.334
+!MESSAGE Error: <anonymous> is not a member of GPIO_Client
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of GPIO_Client
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.335
+!MESSAGE Error: <anonymous> is not a member of GPIO_Client
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of GPIO_Client
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.350
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:883)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:58)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:42)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:878)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.351
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.351
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.352
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.352
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.418
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:883)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:58)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:42)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:878)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPFunctionType.marshal(CPPFunctionType.java:162)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:132)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPFunction.setType(PDOMCPPFunction.java:215)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPFunction.initData(PDOMCPPFunction.java:114)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage$ConfigureFunction.run(PDOMCPPLinkage.java:309)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.handlePostProcesses(PDOMCPPLinkage.java:1301)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:631)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.419
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:896)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.549
+!MESSAGE Error: <anonymous> is not a member of GPIO_Client
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of GPIO_Client
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:883)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:58)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:42)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:878)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.550
+!MESSAGE Error: <anonymous> is not a member of GPIO_Client
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of GPIO_Client
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.551
+!MESSAGE Error: <anonymous> is not a member of GPIO_Client
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of GPIO_Client
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.614
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:883)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:58)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:42)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:878)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.615
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.615
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.616
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.617
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.905
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:883)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:58)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:42)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:878)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1606)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPFunctionType.marshal(CPPFunctionType.java:162)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:132)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPFunction.setType(PDOMCPPFunction.java:215)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPFunction.initData(PDOMCPPFunction.java:114)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage$ConfigureFunction.run(PDOMCPPLinkage.java:309)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.handlePostProcesses(PDOMCPPLinkage.java:1301)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:631)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-01-18 16:14:13.906
+!MESSAGE Error: <anonymous> is not a member of HardwareError
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of HardwareError
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1157)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1081)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassType.getVisibility(CPPClassType.java:447)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:921)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:932)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:885)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:703)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:623)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:678)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:325)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1284)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1096)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:930)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:557)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:15:20.051
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/plat/export/plat/sw/plat/standalone_domain/system.mss ], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:15:20.060
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/plat/export/plat/sw/plat/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:15:20.061
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/plat/export/plat/sw/plat/standalone_domain/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:15:20.063
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/PFE/test/plat/export/plat/hw/hardware.xsa F:/PFE/test/plat/export/plat/sw/plat/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-01-18 16:15:20.063
+!MESSAGE Generating MD5 hash for file: F:\PFE\test\plat\export\plat\sw\plat\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:15:20.067
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/PFE/test/plat/export/plat/sw/plat/standalone_domain/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-18 16:15:20.068
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/PFE/test/plat/export/plat/sw/plat/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-01-18 16:15:32.834
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
+
+!ENTRY org.eclipse.tcf 4 0 2024-01-18 16:42:51.176
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at java.base/java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329)

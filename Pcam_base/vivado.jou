@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Dec  8 16:24:50 2023
+# Process ID: 1384
+# Current directory: F:/PFE/Pcam_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9012 F:\PFE\Pcam_base\Pcam_base.xpr
+# Log file: F:/PFE/Pcam_base/vivado.log
+# Journal file: F:/PFE/Pcam_base\vivado.jou
+# Running On: DESKTOP-Q8QIOJU, OS: Windows, CPU Frequency: 3592 MHz, CPU Physical cores: 4, Host memory: 34263 MB
+#-----------------------------------------------------------
+start_gui

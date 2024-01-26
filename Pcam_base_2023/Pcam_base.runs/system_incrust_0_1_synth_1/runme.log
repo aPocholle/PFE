@@ -1,0 +1,422 @@
+
+*** Running vivado
+    with args -log system_incrust_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_incrust_0_1.tcl
+
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source system_incrust_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1460.145 ; gain = 159.742
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/PFE/Pcam_base_2023/repo_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/PFE/hls/incrust'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/PFE/hls/incrust_score'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_incrust_0_1
+Command: synth_design -top system_incrust_0_1 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7484
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2315.258 ; gain = 408.934
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_incrust_0_1' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ip/system_incrust_0_1/synth/system_incrust_0_1.vhd:100]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'incrust' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:12' bound to instance 'U0' of component 'incrust' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ip/system_incrust_0_1/synth/system_incrust_0_1.vhd:208]
+INFO: [Synth 8-638] synthesizing module 'incrust' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:59]
+	Parameter DataWidth bound to: 24 - type: integer 
+	Parameter AddressRange bound to: 20750 - type: integer 
+	Parameter AddressWidth bound to: 15 - type: integer 
+INFO: [Synth 8-3491] module 'incrust_im_esirem_V' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:3020' bound to instance 'im_esirem_V_U' of component 'incrust_im_esirem_V' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:315]
+INFO: [Synth 8-638] synthesizing module 'incrust_im_esirem_V' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:3033]
+INFO: [Synth 8-3491] module 'incrust_im_esirem_V_rom' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:9' bound to instance 'incrust_im_esirem_V_rom_U' of component 'incrust_im_esirem_V_rom' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:3045]
+INFO: [Synth 8-638] synthesizing module 'incrust_im_esirem_V_rom' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'incrust_im_esirem_V_rom' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'incrust_im_esirem_V' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_esirem_V.vhd:3033]
+	Parameter DataWidth bound to: 24 - type: integer 
+	Parameter AddressRange bound to: 20750 - type: integer 
+	Parameter AddressWidth bound to: 15 - type: integer 
+INFO: [Synth 8-3491] module 'incrust_im_polytebkb' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:2238' bound to instance 'im_polytech_V_U' of component 'incrust_im_polytebkb' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:327]
+INFO: [Synth 8-638] synthesizing module 'incrust_im_polytebkb' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:2251]
+INFO: [Synth 8-3491] module 'incrust_im_polytebkb_rom' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:9' bound to instance 'incrust_im_polytebkb_rom_U' of component 'incrust_im_polytebkb_rom' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:2263]
+INFO: [Synth 8-638] synthesizing module 'incrust_im_polytebkb_rom' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'incrust_im_polytebkb_rom' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'incrust_im_polytebkb' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_im_polytebkb.vhd:2251]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'incrust_AXILiteS_s_axi' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_AXILiteS_s_axi.vhd:9' bound to instance 'incrust_AXILiteS_s_axi_U' of component 'incrust_AXILiteS_s_axi' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:339]
+INFO: [Synth 8-638] synthesizing module 'incrust_AXILiteS_s_axi' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_AXILiteS_s_axi.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'incrust_AXILiteS_s_axi' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust_AXILiteS_s_axi.vhd:52]
+	Parameter DataWidth bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_data_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:367]
+INFO: [Synth 8-638] synthesizing module 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:22]
+	Parameter W bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'ibuf' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:575' bound to instance 'ibuf_inst' of component 'ibuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_ibuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:587]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_ibuf' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:587]
+	Parameter W bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'obuf' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:620' bound to instance 'obuf_inst' of component 'obuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_obuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:632]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_obuf' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:632]
+INFO: [Synth 8-256] done synthesizing module 'regslice_both' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:22]
+	Parameter DataWidth bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_keep_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:381]
+INFO: [Synth 8-638] synthesizing module 'regslice_both__parameterized1' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:22]
+	Parameter W bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'ibuf' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:575' bound to instance 'ibuf_inst' of component 'ibuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_ibuf__parameterized0' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:587]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_ibuf__parameterized0' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:587]
+	Parameter W bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'obuf' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:620' bound to instance 'obuf_inst' of component 'obuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_obuf__parameterized0' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:632]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_obuf__parameterized0' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:632]
+INFO: [Synth 8-256] done synthesizing module 'regslice_both__parameterized1' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:22]
+	Parameter DataWidth bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_strb_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:395]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_user_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:409]
+INFO: [Synth 8-638] synthesizing module 'regslice_both__parameterized3' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:22]
+	Parameter W bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'ibuf' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:575' bound to instance 'ibuf_inst' of component 'ibuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_ibuf__parameterized1' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:587]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_ibuf__parameterized1' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:587]
+	Parameter W bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'obuf' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:620' bound to instance 'obuf_inst' of component 'obuf' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_obuf__parameterized1' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:632]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_obuf__parameterized1' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:632]
+INFO: [Synth 8-256] done synthesizing module 'regslice_both__parameterized3' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:22]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_last_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:423]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_id_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:437]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_s_axis_video_V_dest_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:451]
+	Parameter DataWidth bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_data_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:465]
+	Parameter DataWidth bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_keep_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:479]
+	Parameter DataWidth bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_strb_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:493]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_user_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:507]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_last_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:521]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_id_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:535]
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'regslice_both' declared at 'f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/regslice_core.vhd:7' bound to instance 'regslice_both_m_axis_video_V_dest_V_U' of component 'regslice_both' [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:549]
+INFO: [Synth 8-256] done synthesizing module 'incrust' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ipshared/6bd4/hdl/vhdl/incrust.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'system_incrust_0_1' (0#1) [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ip/system_incrust_0_1/synth/system_incrust_0_1.vhd:100]
+WARNING: [Synth 8-7129] Port reset in module incrust_im_polytebkb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module incrust_im_esirem_V is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2457.922 ; gain = 551.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2475.836 ; gain = 569.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2475.836 ; gain = 569.512
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2475.836 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ip/system_incrust_0_1/constraints/incrust_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [f:/PFE/Pcam_base_2023/Pcam_base.gen/sources_1/bd/system/ip/system_incrust_0_1/constraints/incrust_ooc.xdc] for cell 'U0'
+Parsing XDC File [F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2588.484 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 2588.484 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2588.484 ; gain = 682.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2588.484 ; gain = 682.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_0_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2588.484 ; gain = 682.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'incrust_AXILiteS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'incrust_AXILiteS_s_axi'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'incrust_AXILiteS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                              110
+*
+                  rdidle |                              010 |                              100
+                  rddata |                              100 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'incrust_AXILiteS_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2588.484 ; gain = 682.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   2 Input   31 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
+	               31 Bit    Registers := 1     
+	               25 Bit    Registers := 4     
+	               24 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 30    
+	                1 Bit    Registers := 11    
++---Multipliers : 
+	              32x32  Multipliers := 1     
++---ROMs : 
+	                    ROMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   3 Input   32 Bit        Muxes := 1     
+	   3 Input   31 Bit        Muxes := 1     
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 2     
+	   2 Input   24 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 7     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 22    
+	   4 Input    2 Bit        Muxes := 14    
+	   2 Input    1 Bit        Muxes := 63    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP bound_fu_307_p2, operation Mode is: A*B.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: Generating DSP bound_fu_307_p2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: Generating DSP bound_fu_307_p2, operation Mode is: A*B.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: Generating DSP bound_fu_307_p2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+DSP Report: operator bound_fu_307_p2 is absorbed into DSP bound_fu_307_p2.
+WARNING: [Synth 8-3332] Sequential element (incrust_AXILiteS_s_axi_U/FSM_onehot_wstate_reg[0]) is unused and will be removed from module incrust.
+WARNING: [Synth 8-3332] Sequential element (incrust_AXILiteS_s_axi_U/FSM_onehot_rstate_reg[0]) is unused and will be removed from module incrust.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 2588.484 ; gain = 682.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+-------------------------+---------------+----------------+
+|Module Name | RTL Object              | Depth x Width | Implemented As | 
++------------+-------------------------+---------------+----------------+
+|incrust     | pixel_1_reg_209_reg_rep | 32768x24      | Block RAM      | 
+|incrust     | pixel_1_reg_209_reg_rep | 32768x24      | Block RAM      | 
++------------+-------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|incrust     | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|incrust     | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|incrust     | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|incrust     | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2588.484 ; gain = 682.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:49 . Memory (MB): peak = 2655.535 ; gain = 749.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 2703.605 ; gain = 797.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|incrust     | A*B          | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|incrust     | PCIN>>17+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|incrust     | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|incrust     | PCIN>>17+A*B | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   130|
+|2     |DSP48E1  |     4|
+|3     |LUT1     |    77|
+|4     |LUT2     |   112|
+|5     |LUT3     |   154|
+|6     |LUT4     |   179|
+|7     |LUT5     |   175|
+|8     |LUT6     |   104|
+|9     |RAMB36E1 |    48|
+|57    |FDRE     |   680|
+|58    |FDSE     |     1|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:53 . Memory (MB): peak = 2720.176 ; gain = 701.203
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 2720.176 ; gain = 813.852
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 2732.238 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 182 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2736.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 2164b4a0
+INFO: [Common 17-83] Releasing license: Synthesis
+84 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 2736.938 ; gain = 1237.734
+INFO: [Common 17-1381] The checkpoint 'F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_0_1_synth_1/system_incrust_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_incrust_0_1, cache-ID = 43d67f74d7e2b3bc
+INFO: [Coretcl 2-1174] Renamed 44 cell refs.
+INFO: [Common 17-1381] The checkpoint 'F:/PFE/Pcam_base_2023/Pcam_base.runs/system_incrust_0_1_synth_1/system_incrust_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_incrust_0_1_utilization_synth.rpt -pb system_incrust_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 22 16:57:30 2023...

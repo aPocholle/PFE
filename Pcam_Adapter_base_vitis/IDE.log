@@ -1,0 +1,106 @@
+16:31:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\PFE\Pcam_Adapter_base_vitis\temp_xsdb_launch_script.tcl
+16:31:15 INFO  : XSCT server has started successfully.
+16:31:15 INFO  : Successfully done setting XSCT server connection channel  
+16:31:15 INFO  : plnx-install-location is set to ''
+16:31:15 INFO  : Successfully done setting workspace for the tool. 
+16:31:15 INFO  : Successfully done query RDI_DATADIR 
+16:31:15 INFO  : Registering command handlers for Vitis TCF services
+16:32:26 INFO  : Successfully done sdx_reload_mss "F:/PFE/Pcam_Adapter_base_vitis/plat/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+16:32:26 INFO  : Successfully done sdx_reload_mss "F:/PFE/Pcam_Adapter_base_vitis/plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+16:34:47 INFO  : Checking for BSP changes to sync application flags for project 'application'...
+16:35:06 INFO  : Checking for BSP changes to sync application flags for project 'application'...
+16:35:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:35:19 INFO  : Jtag cable 'Digilent Zed 210248B186DF' is selected.
+16:35:19 INFO  : 'jtag frequency' command is executed.
+16:35:19 INFO  : Context for 'APU' is selected.
+16:35:19 INFO  : System reset is completed.
+16:35:22 INFO  : 'after 3000' command is executed.
+16:35:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1' command is executed.
+16:35:24 INFO  : FPGA configured successfully with bitstream "F:/PFE/Pcam_Adapter_base_vitis/application/_ide/bitstream/systeme_complet.bit"
+16:35:24 INFO  : Context for 'APU' is selected.
+16:35:25 INFO  : Hardware design information is loaded from 'F:/PFE/Pcam_Adapter_base_vitis/plat/export/plat/hw/systeme_complet.xsa'.
+16:35:25 INFO  : 'configparams force-mem-access 1' command is executed.
+16:35:25 INFO  : Context for 'APU' is selected.
+16:35:25 INFO  : Sourcing of 'F:/PFE/Pcam_Adapter_base_vitis/application/_ide/psinit/ps7_init.tcl' is done.
+16:35:25 INFO  : 'ps7_init' command is executed.
+16:35:25 INFO  : 'ps7_post_config' command is executed.
+16:35:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:35:27 INFO  : The application 'F:/PFE/Pcam_Adapter_base_vitis/application/Debug/application.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:35:27 INFO  : 'configparams force-mem-access 0' command is executed.
+16:35:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1
+fpga -file F:/PFE/Pcam_Adapter_base_vitis/application/_ide/bitstream/systeme_complet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/PFE/Pcam_Adapter_base_vitis/plat/export/plat/hw/systeme_complet.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/PFE/Pcam_Adapter_base_vitis/application/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/PFE/Pcam_Adapter_base_vitis/application/Debug/application.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:35:27 INFO  : Memory regions updated for context APU
+16:35:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:35:27 INFO  : 'con' command is executed.
+16:35:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:35:27 INFO  : Launch script is exported to file 'F:\PFE\Pcam_Adapter_base_vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_application_system_standalone.tcl'
+16:38:17 INFO  : Checking for BSP changes to sync application flags for project 'application'...
+16:38:46 INFO  : Disconnected from the channel tcfchan#3.
+16:38:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:38:46 INFO  : Jtag cable 'Digilent Zed 210248B186DF' is selected.
+16:38:46 INFO  : 'jtag frequency' command is executed.
+16:38:46 INFO  : Context for 'APU' is selected.
+16:38:46 INFO  : System reset is completed.
+16:38:49 INFO  : 'after 3000' command is executed.
+16:38:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1' command is executed.
+16:38:51 INFO  : FPGA configured successfully with bitstream "F:/PFE/Pcam_Adapter_base_vitis/application/_ide/bitstream/systeme_complet.bit"
+16:38:51 INFO  : Context for 'APU' is selected.
+16:38:51 INFO  : Hardware design information is loaded from 'F:/PFE/Pcam_Adapter_base_vitis/plat/export/plat/hw/systeme_complet.xsa'.
+16:38:51 INFO  : 'configparams force-mem-access 1' command is executed.
+16:38:51 INFO  : Context for 'APU' is selected.
+16:38:51 INFO  : Sourcing of 'F:/PFE/Pcam_Adapter_base_vitis/application/_ide/psinit/ps7_init.tcl' is done.
+16:38:52 INFO  : 'ps7_init' command is executed.
+16:38:52 INFO  : 'ps7_post_config' command is executed.
+16:38:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:38:53 INFO  : The application 'F:/PFE/Pcam_Adapter_base_vitis/application/Debug/application.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:38:53 INFO  : 'configparams force-mem-access 0' command is executed.
+16:38:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B186DF" && level==0} -index 1
+fpga -file F:/PFE/Pcam_Adapter_base_vitis/application/_ide/bitstream/systeme_complet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/PFE/Pcam_Adapter_base_vitis/plat/export/plat/hw/systeme_complet.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/PFE/Pcam_Adapter_base_vitis/application/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/PFE/Pcam_Adapter_base_vitis/application/Debug/application.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:38:54 INFO  : Memory regions updated for context APU
+16:38:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:38:54 INFO  : 'con' command is executed.
+16:38:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:38:54 INFO  : Launch script is exported to file 'F:\PFE\Pcam_Adapter_base_vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_application_system_standalone.tcl'
+17:12:54 INFO  : Disconnected from the channel tcfchan#5.

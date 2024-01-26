@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Dec 14 15:35:25 2023
+# Process ID: 10576
+# Current directory: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_proc_sys_reset_0_0_synth_1
+# Command line: vivado.exe -log system_proc_sys_reset_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_proc_sys_reset_0_0.tcl
+# Log file: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_proc_sys_reset_0_0_synth_1/system_proc_sys_reset_0_0.vds
+# Journal file: F:/PFE/Pcam_base_2023/Pcam_base.runs/system_proc_sys_reset_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-Q8QIOJU, OS: Windows, CPU Frequency: 3592 MHz, CPU Physical cores: 4, Host memory: 34263 MB
+#-----------------------------------------------------------
+source system_proc_sys_reset_0_0.tcl -notrace
